@@ -1,0 +1,17 @@
+<div class="panel panel-default" ng-init="getTask()">
+	<div class="panel-heading">
+		<h3 class="panel-title">{{task.tasksummary}} <span class="label label-default">{{task.status}}</span></h3>
+	</div>
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-md-4">
+				<p>{{task.taskdesc}}</p>
+			</div>
+		</div>	
+	</div>
+</div>
+
+<div class="pull-right">
+	<a class="btn btn-default" href="#/tasks/edit/{{task._id}}">Edit</a>
+	<a class="btn btn-danger" href="#" ng-click="removeTask(task._id)">Delete</a>
+</div>

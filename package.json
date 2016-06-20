@@ -1,0 +1,25 @@
+{
+  "name": "tranquil",
+  "version": "1.0.0",
+  "description": "simple automation for product servicing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjaykumara1994/tranquil.git"
+  },
+  "author": "Sanjay Kumar A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjaykumara1994/tranquil/issues"
+  },
+  "homepage": "https://github.com/sanjaykumara1994/tranquil#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.1",
+    "nodemon": "^1.9.2"
+  }
+}
